@@ -1,0 +1,16 @@
+[package]
+name = "soundtouch-sys"
+version = "1.0.0"
+authors = ["Isamu Mogi"]
+build = "build.rs"
+description = "Bindings to SoundTouch"
+license = "LGPL-2.1"
+readme = "README.md"
+repository = "https://github.com/saturday06/rust-soundtouch-sys"
+
+[build-dependencies]
+bindgen = "0"
+pkg-config = "0.3"
+
+[badges]
+travis-ci = { repository = "saturday06/rust-soundtouch-sys" }
