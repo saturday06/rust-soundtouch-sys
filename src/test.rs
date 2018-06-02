@@ -1,5 +1,4 @@
 use super::*;
-use std::str;
 
 #[test]
 fn test() {
